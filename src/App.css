@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-orange: #ffa500;
+  --primary-dark: rgba(255,255,255,0);
+}
+
+body {
+  font-family: "Roboto Condesed" sans-serif;
+}
+
+nav a.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: var(--primary-orange) !important;
+  font-size: 30px;
+  padding: 0 !important;
+}
+nav a.nav-link {
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--primary-white) !important;
+  border-top: 3px solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 3px solid var(--primary-orange);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 3px solid var(--primary-orange);
+}
